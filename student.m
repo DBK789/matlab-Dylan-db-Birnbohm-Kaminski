@@ -23,7 +23,7 @@ classdef Student
         
         %Update the GPA
         function obj = updateGPA(obj, newGPA)
-            obj.GPA = newGPA'
+            obj.GPA = newGPA;
         end
     end
 end

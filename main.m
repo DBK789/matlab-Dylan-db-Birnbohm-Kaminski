@@ -31,4 +31,3 @@ end
 % Save and load the database to a file
 db.saveToFile('StudentDatabase.mat');
 db = db.loadFromFile('StudentDatabase.mat');
-
